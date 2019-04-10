@@ -1,3 +1,3 @@
 FROM ruby
 RUN gem install sass
-RUN apt-get update && apt-get install -y rsync
+RUN apt-get update && apt-get install -y rsync unzip zip
